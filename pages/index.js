@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import { useState } from 'react'
-import '../styles/globals.css'
 
 const CHOICES = [
   'Speed of responding to inquiries',
