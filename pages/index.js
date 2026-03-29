@@ -211,7 +211,7 @@ export default function Survey() {
               {current.type === 'nps' && (
                 <div className="nps-wrapper">
                   <div className="nps-scale">
-                    {Array.from({ length: 11 }, (_, i) => (
+                    {Array.from({ length: 10 }, (_, i) => i + 1).map(i => (
                       <button
                         key={i}
                         className={`nps-btn${answers['nps'] === i ? ' selected' : ''}`}
